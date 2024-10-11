@@ -76,7 +76,7 @@ class Bird():
         self.mask_baixo = pygame.mask.from_surface(self.baixo)
 
     def atualiza(self):
-        aceleracao = 0.10
+        aceleracao = 0.125
         self.y -= self.v
         self.v -= aceleracao
 
